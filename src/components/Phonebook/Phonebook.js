@@ -7,7 +7,7 @@ import './Phonebook.module.css';
 
 class Phonebook extends Component {
   state = {
-    contacts: JSON.parse(localStorage.getItem('contacts')),
+    contacts: JSON.parse(localStorage.getItem('contacts')) || [],
     filter: '',
     name: '',
     number: '',
