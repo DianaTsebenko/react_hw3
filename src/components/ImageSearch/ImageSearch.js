@@ -33,7 +33,7 @@ class ImageSearch extends Component {
     this.setState({ query, images: [], page: 1 });
   };
 
-  // Завантаження нової сторінки зображень
+  // Завантаження більше зображень
   loadMore = () => {
     this.setState(prevState => ({ page: prevState.page + 1 }));
   };
