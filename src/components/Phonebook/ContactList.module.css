@@ -1,0 +1,11 @@
+.contactItem {
+  margin-bottom: 10px;
+}
+
+.contactBtn {
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid rgba(20, 19, 19, 0.414);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}

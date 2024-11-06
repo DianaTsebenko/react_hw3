@@ -1,0 +1,18 @@
+.contactForm {
+  padding: 10px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border: 1px solid rgba(6, 6, 6, 0.733);
+}
+.contactInput {
+  width: 250px;
+}
+.btnSubmit {
+  width: 100px;
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid rgba(20, 19, 19, 0.414);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,6 @@
+.filterInput {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  row-gap: 10px;
+}
